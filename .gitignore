@@ -1,0 +1,21 @@
+# dependencies
+node_modules/
+
+# builds
+.next/
+dist/
+out/
+
+# env & secrets — 절대 커밋 금지
+.env
+.env.*
+!.env.example
+
+# vercel / supabase local
+.vercel/
+supabase/.temp/
+
+# misc
+.DS_Store
+*.log
+coverage/
