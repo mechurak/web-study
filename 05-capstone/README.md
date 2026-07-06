@@ -24,6 +24,7 @@
 
 | 단계 | 산출물 | 상태 |
 |---|---|---|
+| 0. 모노레포 셋업 | [docs/monorepo.md](./docs/monorepo.md) — pnpm workspaces, `packages/shared` | ⬜ |
 | 1. 요구사항 정의 | `docs/requirements.md` — 유저 스토리, 기능 목록, 범위 밖 명시 | ⬜ |
 | 2. 설계 | `docs/design.md` — 화면 흐름, DB 스키마(ERD), API 명세, Next↔Nest 역할 분담 | ⬜ |
 | 3. DB 구축 | 마이그레이션 + RLS 정책 | ⬜ |
@@ -36,8 +37,10 @@
 
 ```
 05-capstone/
-├── README.md        # 이 파일 — 진행 상황 추적
-├── docs/            # 요구사항, 설계, 회고
-├── frontend/        # Next.js (Vercel 배포)
-└── backend/         # NestJS (Supabase 연결)
+├── README.md            # 이 파일 — 진행 상황 추적
+├── docs/                # 요구사항, 설계, 회고, 모노레포 가이드
+├── pnpm-workspace.yaml  # (셋업 시 생성)
+├── packages/shared/     # zod 스키마, 공유 타입 (frontend/backend 공용)
+├── frontend/            # Next.js (Vercel 배포)
+└── backend/             # NestJS (Supabase 연결)
 ```

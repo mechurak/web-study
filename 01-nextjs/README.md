@@ -20,6 +20,9 @@
 | 5 | [05-optimization.md](./notes/05-optimization.md) | 이미지/폰트 최적화, 메타데이터(SEO) |
 | 6 | [06-tailwind.md](./notes/06-tailwind.md) | Tailwind CSS — 유틸리티 퍼스트 스타일링 |
 | 7 | [07-shadcn.md](./notes/07-shadcn.md) | shadcn/ui — 복사해서 소유하는 컴포넌트 |
+| 8 | [08-state-management.md](./notes/08-state-management.md) | 서버 상태(TanStack Query) vs 클라이언트 상태(Zustand) |
+| 9 | [09-zod.md](./notes/09-zod.md) | zod — 스키마 검증 + 타입 추론 |
+| 10 | [10-testing.md](./notes/10-testing.md) | Playwright E2E, React Testing Library |
 
 ## 실습
 

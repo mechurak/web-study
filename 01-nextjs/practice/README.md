@@ -20,5 +20,8 @@ npm run dev
 - [ ] 05 최적화: 이미지 갤러리 + 동적 메타데이터
 - [ ] 06 Tailwind: 반응형 카드 그리드 + 다크 모드 토글
 - [ ] 07 shadcn/ui: 메모 UI 컴포넌트 교체 + Form/Dialog/Toast
+- [ ] 08 상태 관리: TanStack Query 낙관적 업데이트 + URL 상태 필터
+- [ ] 09 zod: 메모 스키마로 폼/Server Action 이중 검증
+- [ ] 10 테스트: Playwright E2E (로그인→작성→삭제) + RTL 폼 테스트
 
 > 이 앱은 02-supabase 챕터에서 Supabase를 붙이는 베이스로 계속 사용한다.

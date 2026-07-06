@@ -20,6 +20,7 @@
 | 3 | [03-nestjs-hosting.md](./notes/03-nestjs-hosting.md) | NestJS 호스팅 선택지 비교와 배포 |
 | 4 | [04-domain-ci.md](./notes/04-domain-ci.md) | 커스텀 도메인, GitHub 연동 CI/CD |
 | 5 | [05-monitoring.md](./notes/05-monitoring.md) | 로그, 애널리틱스, 에러 추적 |
+| 6 | [06-security.md](./notes/06-security.md) | 웹 보안 기초 — XSS/CSRF/주입, OWASP Top 10 |
 
 ## 실습
 

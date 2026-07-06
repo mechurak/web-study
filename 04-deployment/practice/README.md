@@ -15,3 +15,4 @@
 - [ ] 03 Nest 호스팅: 컨테이너화 + 플랫폼 배포 + 전 구간 연결
 - [ ] 04 CI/CD: GitHub Actions PR 파이프라인 + 브랜치 보호
 - [ ] 05 모니터링: Sentry + Speed Insights + uptime
+- [ ] 06 보안: 보안 헤더 채점 + rate limit + 배포 전 보안 체크리스트

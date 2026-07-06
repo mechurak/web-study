@@ -15,6 +15,7 @@
 ### CI — 머지 전 검증
 - [ ] GitHub Actions 기본 구조 (workflow / job / step)
 - [ ] PR마다: lint + typecheck + test 실행
+- [ ] Playwright E2E도 CI에 포함 (01-nextjs 10장에서 작성한 것)
 - [ ] 브랜치 보호 규칙 — CI 통과해야 머지 가능
 
 ### CD — 배포 자동화
