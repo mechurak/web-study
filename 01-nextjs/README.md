@@ -18,6 +18,8 @@
 | 3 | [03-data-fetching.md](./notes/03-data-fetching.md) | fetch 캐싱, Server Actions |
 | 4 | [04-api-routes.md](./notes/04-api-routes.md) | Route Handlers, 미들웨어 |
 | 5 | [05-optimization.md](./notes/05-optimization.md) | 이미지/폰트 최적화, 메타데이터(SEO) |
+| 6 | [06-tailwind.md](./notes/06-tailwind.md) | Tailwind CSS — 유틸리티 퍼스트 스타일링 |
+| 7 | [07-shadcn.md](./notes/07-shadcn.md) | shadcn/ui — 복사해서 소유하는 컴포넌트 |
 
 ## 실습
 
