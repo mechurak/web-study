@@ -23,7 +23,7 @@
 
 ### Supabase 특유의 것들
 - [ ] `auth.users` 테이블과 내 테이블(`profiles`) 연결 패턴
-- [ ] PostgREST — 테이블이 곧바로 REST API가 되는 원리
+- [ ] PostgREST — 테이블이 곧바로 REST(Representational State Transfer) API가 되는 원리
 
 ## 실습
 

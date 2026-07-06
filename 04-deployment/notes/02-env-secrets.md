@@ -8,7 +8,7 @@
 ## 개념 정리
 
 ### 분류부터
-- [ ] 공개 가능 (anon key, API URL) vs 절대 비공개 (service_role, DB 비밀번호, JWT secret)
+- [ ] 공개 가능 (anon key, API URL) vs 절대 비공개 (service_role, DB 비밀번호, JWT(JSON Web Token) secret)
 - [ ] 우리 스택의 환경변수 전체 목록 만들기 (Next / Nest / Supabase 각각)
 
 ### Next.js + Vercel

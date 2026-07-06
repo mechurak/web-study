@@ -1,8 +1,8 @@
 # 04. 커스텀 도메인 & CI/CD
 
 > **핵심 질문**
-> - 도메인을 사서 서비스에 연결하기까지의 과정은? (DNS 레코드, A/CNAME, TLS 인증서)
-> - CI와 CD는 각각 무엇을 자동화하는가? Vercel의 Git 연동만으로 부족한 지점은?
+> - 도메인을 사서 서비스에 연결하기까지의 과정은? (DNS(Domain Name System) 레코드, A/CNAME, TLS(Transport Layer Security) 인증서)
+> - CI(Continuous Integration, 지속적 통합)와 CD(Continuous Deployment, 지속적 배포)는 각각 무엇을 자동화하는가? Vercel의 Git 연동만으로 부족한 지점은?
 > - "main에 머지되면 자동으로 프로덕션 배포"가 안전하려면 그 앞에 무엇이 있어야 하는가?
 
 ## 개념 정리
@@ -15,7 +15,7 @@
 ### CI — 머지 전 검증
 - [ ] GitHub Actions 기본 구조 (workflow / job / step)
 - [ ] PR마다: lint + typecheck + test 실행
-- [ ] Playwright E2E도 CI에 포함 (01-nextjs 10장에서 작성한 것)
+- [ ] Playwright E2E(End-to-End) 테스트도 CI에 포함 (01-nextjs 10장에서 작성한 것)
 - [ ] 브랜치 보호 규칙 — CI 통과해야 머지 가능
 
 ### CD — 배포 자동화

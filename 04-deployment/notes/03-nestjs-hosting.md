@@ -2,7 +2,7 @@
 
 > **핵심 질문**
 > - Vercel에 NestJS를 올리는 게 왜 부적합한가? (serverless vs 상시 프로세스)
-> - PaaS(Railway/Fly.io/Render) vs 컨테이너(Cloud Run) vs VM — 추상화 수준의 트레이드오프는?
+> - PaaS(Platform as a Service — Railway/Fly.io/Render) vs 컨테이너(Cloud Run) vs VM — 추상화 수준의 트레이드오프는?
 > - Dockerfile을 직접 쓰는 것의 가치는? (플랫폼 이식성)
 
 ## 개념 정리
@@ -14,7 +14,7 @@
 | Fly.io | 컨테이너 PaaS | | | |
 | Render | PaaS | | | |
 | Cloud Run | serverless 컨테이너 | | | |
-| EC2/VM | IaaS | | | |
+| EC2/VM | IaaS(Infrastructure as a Service) | | | |
 
 - [ ] 표 채우면서 하나 선택 (학습용 추천: Railway 또는 Fly.io — 마찰 최소)
 

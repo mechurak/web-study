@@ -10,7 +10,7 @@
 ### Storage
 - [ ] 버킷 생성, public vs private 버킷
 - [ ] 업로드/다운로드 API, signed URL (private 파일의 임시 공개)
-- [ ] Storage에도 RLS와 같은 정책이 있다 (storage policies)
+- [ ] Storage에도 RLS(Row Level Security)와 같은 정책이 있다 (storage policies)
 - [ ] 이미지 변환 (리사이징) 기능
 
 ### Realtime

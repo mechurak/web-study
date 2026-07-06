@@ -2,7 +2,7 @@
 
 > **핵심 질문**
 > - `<img>` 대신 `next/image`를 쓰면 구체적으로 무엇이 최적화되는가?
-> - SEO에서 메타데이터가 왜 중요한가? Next.js는 어떻게 페이지별 메타데이터를 만드는가?
+> - SEO(Search Engine Optimization, 검색 엔진 최적화)에서 메타데이터가 왜 중요한가? Next.js는 어떻게 페이지별 메타데이터를 만드는가?
 > - Core Web Vitals(LCP, CLS, INP)가 무엇이고 Next.js 기능들이 각각 어디에 기여하는가?
 
 ## 개념 정리
@@ -52,7 +52,7 @@ import Image from 'next/image'
 
 ### 폰트 — `next/font`
 
-웹폰트의 두 가지 문제: ① Google Fonts CDN 요청 = 외부 네트워크 의존 + 개인정보 이슈, ② 폰트 로드 전후 글자가 바뀌며 레이아웃이 밀림(CLS).
+웹폰트의 두 가지 문제: ① Google Fonts CDN(Content Delivery Network) 요청 = 외부 네트워크 의존 + 개인정보 이슈, ② 폰트 로드 전후 글자가 바뀌며 레이아웃이 밀림(CLS).
 
 `next/font`는 빌드 시 폰트 파일을 **다운로드해서 내 배포에 포함**(셀프 호스팅)하고, `size-adjust`된 fallback 폰트를 자동 생성해 교체 시 밀림을 최소화한다.
 
@@ -69,7 +69,7 @@ export default function RootLayout({ children }) {
 
 ### 메타데이터 & SEO
 
-크롤러와 SNS 미리보기 봇은 페이지의 `<head>`를 읽는다. 제목·설명·OG 태그가 없으면 검색 결과와 공유 카드가 엉망이 된다. App Router에서는 `<head>`를 직접 만지지 않고 **데이터로 선언**한다:
+크롤러와 SNS 미리보기 봇은 페이지의 `<head>`를 읽는다. 제목·설명·OG(Open Graph) 태그가 없으면 검색 결과와 공유 카드가 엉망이 된다. App Router에서는 `<head>`를 직접 만지지 않고 **데이터로 선언**한다:
 
 ```tsx
 // 정적 페이지: 객체 export

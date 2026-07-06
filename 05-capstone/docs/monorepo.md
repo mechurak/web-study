@@ -23,7 +23,7 @@
 ### 배포와의 관계
 - [ ] Vercel의 모노레포 지원 — Root Directory 지정, 영향받은 앱만 빌드
 - [ ] Nest 쪽 Dockerfile에서 workspace 의존성 처리 (`pnpm deploy` 또는 turbo prune)
-- [ ] CI에서 바뀐 패키지만 테스트하기
+- [ ] CI(Continuous Integration)에서 바뀐 패키지만 테스트하기
 
 ## capstone 목표 구조
 

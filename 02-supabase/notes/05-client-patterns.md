@@ -26,7 +26,7 @@
 ## 실습 (01-nextjs practice 앱에)
 
 - [ ] 3종 클라이언트 셋업을 관례 구조로 정리
-- [ ] 메모 CRUD를 in-memory → Supabase로 전면 교체 (조회는 서버 컴포넌트, 변경은 Server Action)
+- [ ] 메모 CRUD(Create, Read, Update, Delete)를 in-memory → Supabase로 전면 교체 (조회는 서버 컴포넌트, 변경은 Server Action)
 - [ ] 생성된 타입으로 쿼리 결과 타입 안전하게 만들기
 
 ## 참고 자료

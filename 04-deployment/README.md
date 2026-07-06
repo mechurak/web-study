@@ -8,7 +8,7 @@
   - Next.js → **Vercel**
   - NestJS → Vercel이 아닌 곳 (Railway / Fly.io / Cloud Run — 왜?)
   - Postgres/인증/스토리지 → **Supabase** (이미 호스팅됨)
-- "배포한다"는 것은 정확히 무슨 과정인가? (빌드 → 아티팩트 → 서빙 인프라 → 도메인/TLS)
+- "배포한다"는 것은 정확히 무슨 과정인가? (빌드 → 아티팩트 → 서빙 인프라 → 도메인/TLS(Transport Layer Security))
 - serverless와 상시 서버(long-running)의 근본적 차이 — 무엇이 각 플랫폼의 적합성을 가르는가?
 
 ## 챕터 목차

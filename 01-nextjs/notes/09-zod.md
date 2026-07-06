@@ -56,7 +56,7 @@ const signupSchema = z.object({
 | **Server Action** | FormData (조작 가능!) | 액션 첫 줄에서 `safeParse`. **Server Action도 공개 HTTP 엔드포인트다** — 클라이언트 검증은 UX용이고, 서버 검증이 보안이다 |
 | **Route Handler / 외부 API 응답** | JSON | `await res.json()`의 반환은 사실상 `any`다. `schema.parse(json)`을 거쳐야 비로소 믿을 수 있는 타입이 된다 |
 | **환경변수** | `process.env` (전부 `string \| undefined`) | 부팅 시 스키마로 검증 — 빠진 변수를 배포 후가 아니라 시작 시점에 잡는다. Next.js에서는 `@t3-oss/env-nextjs`가 이 패턴을 정형화 (03-nestjs 05장의 Nest 버전과 같은 아이디어) |
-| **NestJS** | 요청 DTO | 기본은 class-validator지만 `nestjs-zod`로 zod를 쓸 수도 있다. 트레이드오프: class-validator는 Nest 생태계(Swagger 자동 문서화)와 결합이 깊고, zod는 **프론트와 스키마를 공유**할 수 있다. 모노레포로 갈 거면 zod 통일이 강력해진다 |
+| **NestJS** | 요청 DTO(Data Transfer Object) | 기본은 class-validator지만 `nestjs-zod`로 zod를 쓸 수도 있다. 트레이드오프: class-validator는 Nest 생태계(Swagger 자동 문서화)와 결합이 깊고, zod는 **프론트와 스키마를 공유**할 수 있다. 모노레포로 갈 거면 zod 통일이 강력해진다 |
 
 Server Action 검증의 전형적 형태:
 

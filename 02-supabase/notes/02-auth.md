@@ -2,13 +2,13 @@
 
 > **핵심 질문**
 > - 인증(Authentication)과 인가(Authorization)의 차이는?
-> - JWT 기반 세션은 어떻게 동작하는가? access token / refresh token의 역할은?
+> - JWT(JSON Web Token) 기반 세션은 어떻게 동작하는가? access token / refresh token의 역할은?
 > - 서버 컴포넌트에서 "현재 로그인한 유저"를 어떻게 아는가? (쿠키 기반 세션)
 
 ## 개념 정리
 
 ### 인증 방식
-- [ ] 이메일+비밀번호, 매직 링크, OTP
+- [ ] 이메일+비밀번호, 매직 링크, OTP(One-Time Password)
 - [ ] 소셜 로그인 (OAuth) — Google/GitHub 설정 흐름
 - [ ] 리다이렉트 URL, 콜백 처리 (`/auth/callback`)
 

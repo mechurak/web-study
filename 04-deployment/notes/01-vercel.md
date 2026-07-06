@@ -1,17 +1,17 @@
 # 01. Vercel — 동작 원리와 배포 흐름
 
 > **핵심 질문**
-> - Vercel에 Next.js를 올리면 각 부분(정적 페이지, SSR, API Route)이 실제로 어떤 인프라에서 실행되는가?
+> - Vercel에 Next.js를 올리면 각 부분(정적 페이지, SSR(Server-Side Rendering), API Route)이 실제로 어떤 인프라에서 실행되는가?
 > - "서버가 없다(serverless)"는 말의 실제 의미는? cold start란?
 > - 프리뷰 배포가 개발 워크플로우를 어떻게 바꾸는가?
 
 ## 개념 정리
 
 ### Vercel이 Next.js를 배포하는 방식
-- [ ] 정적 자산/SSG 페이지 → CDN
+- [ ] 정적 자산/SSG(Static Site Generation) 페이지 → CDN(Content Delivery Network)
 - [ ] SSR/Route Handler → Serverless Function (실행 시간·메모리 제한)
 - [ ] 미들웨어 → Edge Runtime (전 세계 엣지에서 실행)
-- [ ] ISR은 어떻게 구현되는가
+- [ ] ISR(Incremental Static Regeneration)은 어떻게 구현되는가
 
 ### 배포 흐름
 - [ ] Git 연동: push → 자동 빌드 → 배포

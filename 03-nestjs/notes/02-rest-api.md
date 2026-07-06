@@ -1,7 +1,7 @@
 # 02. REST API — DTO, 검증(Pipe), 예외 처리
 
 > **핵심 질문**
-> - DTO를 왜 따로 정의하는가? 엔티티를 그대로 받고/반환하면 무슨 문제가 생기는가?
+> - DTO(Data Transfer Object)를 왜 따로 정의하는가? 엔티티를 그대로 받고/반환하면 무슨 문제가 생기는가?
 > - 입력 검증을 컨트롤러 코드가 아닌 선언(데코레이터)으로 하면 무엇이 좋은가?
 > - 일관된 에러 응답 형식이 프론트엔드에 왜 중요한가?
 
@@ -26,7 +26,7 @@
 
 ## 실습 (practice 서버에)
 
-- [ ] 메모 CRUD를 REST 규칙에 맞게 구현 (적절한 상태 코드 포함)
+- [ ] 메모 CRUD(Create, Read, Update, Delete)를 REST(Representational State Transfer) 규칙에 맞게 구현 (적절한 상태 코드 포함)
 - [ ] CreateMemoDto에 검증 걸고, 잘못된 요청이 400으로 떨어지는 것 확인
 - [ ] Swagger UI (`/api`) 띄워서 문서 확인
 - [ ] Next.js 앱에서 이 API를 호출하도록 연결 (CORS 설정 포함)

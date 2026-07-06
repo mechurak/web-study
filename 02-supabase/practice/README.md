@@ -4,7 +4,7 @@
 이 폴더에는 앱 코드가 아닌 것들을 기록한다:
 
 - `migrations/` — 테이블 생성/변경 SQL (Supabase CLI 마이그레이션)
-- `policies.sql` — RLS 정책 모음 (마이그레이션에 포함해도 됨)
+- `policies.sql` — RLS(Row Level Security) 정책 모음 (마이그레이션에 포함해도 됨)
 - `setup.md` — 프로젝트 생성, OAuth 앱 등록 등 대시보드에서 한 설정 기록
 
 ## 시작하기

@@ -1,4 +1,4 @@
-# 02. Supabase — DB + 인증 + 스토리지 (BaaS)
+# 02. Supabase — DB + 인증 + 스토리지 (BaaS, Backend as a Service)
 
 ## 왜 Supabase인가
 

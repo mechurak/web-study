@@ -1,7 +1,7 @@
 # 04. 인증/인가 — Guard, JWT, Supabase 토큰 검증
 
 > **핵심 질문**
-> - 프론트는 Supabase로 로그인하는데, NestJS는 그 유저를 어떻게 믿는가? (JWT 검증)
+> - 프론트는 Supabase로 로그인하는데, NestJS는 그 유저를 어떻게 믿는가? (JWT(JSON Web Token) 검증)
 > - Guard는 요청 생명주기의 어디에서 실행되고, 무엇을 반환하는가?
 > - 인가(내 메모인지 확인)는 Guard와 서비스 중 어디에서 하는가?
 
