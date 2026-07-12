@@ -9,6 +9,8 @@
 
 ## 시작하기
 
+전체 세팅 절차(로컬 스택, 환경변수, 클라우드 프로젝트, OAuth, Vercel)는 [notes/00-setup.md](../notes/00-setup.md) 참고. 요약:
+
 ```bash
 # Supabase CLI 설치 및 로컬 개발 환경
 brew install supabase/tap/supabase

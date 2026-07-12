@@ -13,6 +13,7 @@
 
 | # | 노트 | 주제 |
 |---|---|---|
+| 0 | [00-setup.md](./notes/00-setup.md) | **세팅 가이드** — 로컬 개발 환경부터 Vercel + Supabase 프로덕션까지 (절차 + 왜) |
 | 1 | [01-postgres-basics.md](./notes/01-postgres-basics.md) | 테이블 설계, SQL 기초, 마이그레이션 |
 | 2 | [02-auth.md](./notes/02-auth.md) | 인증 (이메일/소셜 로그인, 세션) |
 | 3 | [03-rls.md](./notes/03-rls.md) | Row Level Security — Supabase의 핵심 |
